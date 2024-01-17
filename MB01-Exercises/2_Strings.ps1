@@ -18,3 +18,23 @@ e: - Schreibe den Namen deines Laptops in eine Variable und gib ihn auf die Kons
 
 $string1 = "Windows PowerShell ist ein leistungsfähiges Tool zur Automatisierung von Aufgaben"
 $string2 = "Digital Talent"
+
+#Solution a:
+$solutionA = $string1.Substring(0,18) + $string2.Substring($string2.Length-6,6)
+Write-Output "Solution a: $solutionA"
+
+#Solution b:
+$solutionB = $solutionA.Replace("Windows ", "")
+Write-Output "Solution b: $solutionB"
+
+#Solution c:
+$solutionC = "{0}\2_Strings.ps1" -f $PSScriptRoot
+Write-Output "Solution c: $solutionC"
+
+#Solution d:
+$solutionD = $env:USERNAME
+Write-Output "Solution d: $solutionD"
+
+#Solution e:
+$solutionE = $env:COMPUTERNAME
+Write-Output "Solution e: $solutionE"
