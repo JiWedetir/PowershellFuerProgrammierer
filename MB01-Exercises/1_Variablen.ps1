@@ -14,10 +14,10 @@ $Var7 = Get-Date
 
 
 
-Write-Output $Var1.GetType()        #String
-Write-Output $Var2.GetType()        #String
-Write-Output $Var3.GetType()        #Int32
-Write-Output $Var4.GetType()        #Object[]
-Write-Output $Var5.GetType()        #Boolean
-Write-Output $Var6.GetType()        #Hashtable
-Write-Output $Var7.GetType()        #DateTime
+$Var1.GetType()        #String
+$Var2.GetType()        #String
+$Var3.GetType()        #Int32
+$Var4.GetType()        #Object[]
+$Var5.GetType()        #Boolean
+$Var6.GetType()        #Hashtable
+$Var7.GetType()        #DateTime
