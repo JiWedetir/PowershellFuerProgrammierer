@@ -6,3 +6,13 @@ c: - Schreibe alle laufenden Prozesse in ein Array und gebe die ersten drei Eint
 #>
 
 $fruits = "Apple","Pear","Banana","Orange"
+
+# Solution a:
+$fruits += "Cherry","Strawberry","Raspberry"
+
+# Solution b:
+$fruits[-3..-1]
+
+# Solution c:
+$processes = Get-Process
+$processes[0..2]
