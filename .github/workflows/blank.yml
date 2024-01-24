@@ -51,6 +51,6 @@ jobs:
           Describe 'Check For File Deployment' {
           It 'Checks if the file exists' {
               $fileName = "Deployment.ps1"
-              Test-Path -Path "$env:GITHUB_WORKSPACE\$fileName" | Should Be $true
+              Test-Path -Path "$env:GITHUB_WORKSPACE\$fileName" | Should -Be $true
               }
           }
