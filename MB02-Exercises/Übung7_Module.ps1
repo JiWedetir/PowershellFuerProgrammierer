@@ -4,3 +4,9 @@
              Erstelle ein Script, in welchem das Module geladen wird und rufe alle Funktionen auf
 Übung 7b: - Gib alle Funktionen des Moduls Math auf die Konsole aus
 #>
+
+
+# Solution a:
+
+
+# Solution b:
